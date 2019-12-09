@@ -4,6 +4,9 @@
     border: 0;
     box-sizing: border-box;
 }
+body{
+    position: relative;
+}
 
 li {
     list-style: none;
@@ -70,5 +73,38 @@ li {
 
 .teapot-rotate {
     transform: rotate(20deg);
+}
+
+#container{
+    position: absolute;
+    width: 99vw;
+    height: 100%;
+    background-color: rgba(136, 136, 136, 0.37);
+    display: flex;
+    margin: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+}
+#message{
+    
+    width: 99vw;
+    height: 5vw;
+    background: white;
+    text-align: center;
+    position: relative;
+    margin: 0;
+}
+
+#closeBtn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 5px;
+    cursor: pointer;
+}
+#messagePara{
+    margin-top: 1vw;
 }
 
