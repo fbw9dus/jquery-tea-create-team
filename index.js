@@ -27,3 +27,10 @@ $('#image').mouseleave(event => {
   },
   
 )
+
+$('.selection__option').mouseover(function(){
+    $(this).find("p").text("Great for a cold day")
+})
+$('.selection__option').mouseout(function(){
+    $(this).find("p").text("Tea Option")
+})
